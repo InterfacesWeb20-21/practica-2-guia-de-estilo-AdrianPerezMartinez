@@ -1,0 +1,144 @@
+header{
+    background-color: bisque;
+    border: black 4px solid;
+    }
+body{
+    background-color: rgb(221, 219, 215);
+}
+footer{
+    clear:both;
+    padding: 20px;
+    background-color: bisque;
+    border: black 4px solid;
+    margin-top: 55px;
+}
+body h1, h2{
+    font-family: sans-serif;
+}
+body p{
+    font-family: Verdana;
+}
+body{
+    font-family: tahoma;
+}
+
+h3#texto_footer{
+    margin-left: 20px;
+}
+h1#titulo_footer{
+    margin-top: -49px;
+    text-align: center;
+}
+ #logo_footer{
+        text-align: right;
+        float: right;
+        width: 80px;
+        margin-top: -75px;
+    }
+
+
+    #logo{
+        text-align: left;
+        float: left;
+        width: 140px;
+        margin-top: 18px;
+    }
+    #titulo{
+        text-align: center;
+        padding: 50px;
+    }
+
+    /*MENU*/
+    #menu{
+        float: left;
+        list-style-type: none;
+        text-align: center;
+        margin-left: -38px;
+        width: 100%;
+
+        
+    }
+   
+    li.enlace_texto{
+        display: inline;
+    }
+
+    a.enlace_menu{
+        text-decoration: none;
+        text-align: center;
+        background-color: bisque;
+        color: cornflowerblue;
+        padding: 15px;
+        margin:-2px;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+ 
+    }
+    
+    a.enlace_menu:hover {background-color:cornflowerblue;
+    color: bisque;}
+    
+    /* MENU LATERAL */
+
+    #menu_lateral{
+        position: absolute;
+        background-color: bisque;
+        border-left: solid black 2px;
+        border-right: solid black 2px;
+        border-bottom: solid black 2px;
+
+    }
+    #lateral{
+        list-style-type: none;
+        margin-top: 65px;
+    }
+    a.enlace_menu_lateral{
+        color:cornflowerblue;
+        text-decoration: none;
+        text-align:center;
+        width: 214px;
+        height: 50px;
+	    display: block;
+        padding: 20px;
+        margin-left: -40px;
+        margin-top: -18px;
+        margin-bottom: -17px;
+        
+    }
+    a.enlace_menu_lateral:hover{
+        background-color:cornflowerblue;
+        color: bisque;
+    }
+    
+    section#contenido{
+        position: relative;
+        margin-left: 300px;
+        margin-top: 70px;
+        margin-right: 70px;
+    }
+
+    /*PORTADA NIÑO*/
+    img#modelo{
+        width: 600px;
+        height: 500px;
+        margin-left: 350px;
+
+    }
+   
+
+   /*PAGINA COLEGIAL Y OTROS*/
+
+   h1#titulo_colegial , h1#titulo_otros{
+       text-align: center;
+   }
+   .galeria{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 55px;
+    margin-bottom:50px;
+    margin-top: -1px;
+
+
+}
