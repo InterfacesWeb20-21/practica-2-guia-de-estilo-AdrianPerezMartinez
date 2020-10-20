@@ -1,0 +1,226 @@
+header{
+    background-color: bisque;
+    border: black 4px solid;
+    }
+body{
+    background-color: rgb(221, 219, 215);
+}
+body h1, h2{
+    font-family: sans-serif;
+}
+body p{
+    font-family: Verdana;
+}
+body{
+    font-family: tahoma;
+}
+footer{
+    clear:both;
+    padding: 20px;
+    background-color: bisque;
+    border: black 4px solid;
+    margin-top: 55px;
+}
+
+h3#texto_footer{
+    margin-left: 20px;
+}
+h1#titulo_footer{
+    margin-top: -49px;
+    text-align: center;
+}
+ #logo_footer{
+        text-align: right;
+        float: right;
+        width: 80px;
+        margin-top: -75px;
+    }
+
+
+    #logo{
+        text-align: left;
+        float: left;
+        width: 140px;
+        margin-top: 18px;
+    }
+    #titulo{
+        text-align: center;
+        padding: 50px;
+    }
+
+    /*MENU*/
+    #menu{
+        float: left;
+        list-style-type: none;
+        text-align: center;
+        margin-left: -38px;
+        width: 100%;
+
+        
+    }
+   
+    li.enlace_texto{
+        display: inline;
+    }
+
+    a.enlace_menu{
+        text-decoration: none;
+        text-align: center;
+        background-color: bisque;
+        color: cornflowerblue;
+        padding: 15px;
+        margin:-2px;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+ 
+    }
+    
+    a.enlace_menu:hover {background-color:cornflowerblue;
+    color: bisque;}
+    
+    /* MENU LATERAL */
+
+    #menu_lateral{
+        position: absolute;
+        background-color: bisque;
+        border-left: solid black 2px;
+        border-right: solid black 2px;
+        border-bottom: solid black 2px;
+
+    }
+    #lateral{
+        list-style-type: none;
+        margin-top: 65px;
+    }
+    a.enlace_menu_lateral{
+        color:cornflowerblue;
+        text-decoration: none;
+        text-align:center;
+        width: 214px;
+        height: 50px;
+	    display: block;
+        padding: 20px;
+        margin-left: -40px;
+        margin-top: -18px;
+        margin-bottom: -17px;
+        
+    }
+    a.enlace_menu_lateral:hover{
+        background-color:cornflowerblue;
+        color: bisque;
+    }
+    
+    section#contenido{
+        position: relative;
+        margin-left: 300px;
+        margin-top: 70px;
+        margin-right: 70px;
+    }
+
+    
+    img.hombre_portada{
+        margin-left: 200px;
+        width: 1000px;
+        height: 600px;
+        
+    }
+    /*CONTENIDO DE CASUAL*/
+   h2.titulo_casual{
+        text-align:center;
+    }
+    p.texto_casual{
+        margin-left: 150px;
+        margin-right:150px;
+    }
+
+    img.zapato_casual{
+       margin-left:45%;
+       width: 200px;
+       height: 100px;
+    }
+
+    /*CONTENIDO DE BOTAS*/
+
+    p.texto_botas{
+        margin-right: 700px;
+    }
+
+    img.historia_botas{
+        float:right;
+        margin-top: -150px;
+        margin-right: -700px;
+        
+    }
+    h1#titulo_botas{
+        margin-top: -10px;
+        font-size: 40px;
+        text-align: center;
+    }
+    img#imagen_bota1{
+        width: 130px;
+        position:absolute;
+    }
+
+    p#bota2{
+        float:left;
+        margin-left:300px;
+        margin-top: -40px;
+        font-size:20px; 
+
+    }
+    img#imagen_bota2{
+        width: 130px;
+        position:absolute;
+        margin-left: -140px;
+    }
+
+    p#botin{
+        font-size: 20px;
+        margin-left: 600px;
+        margin-top: -40px;
+    }
+
+    img#imagen_botin{
+        width: 130px;
+        margin-left: 570px;
+    }
+
+    p.texto_castellanos{
+        margin-bottom: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .galeria{
+        float: left;
+        width: 150px;
+        height: 250px;
+        margin: 55px;
+        margin-bottom:50px;
+        margin-top: -1px;
+    
+    }
+    .cambio_fila{
+        clear:both;
+        margin-bottom:50px;
+    }
+
+    p.texto_fiesta{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    span.puntos{
+        font-size: 25px;
+        font-weight: 900;
+        color:cornflowerblue;
+    }
+
+    img#imagen_fiesta{
+        width: 850px;
+        height: 500px;
+        margin-left: 300px;
+    }
+
+    
